@@ -24,7 +24,7 @@ Copy folder **ssl** to root.
 Add script to package.json:   
 
 ```javascript
-  "start": "ng serve --ssl true -o --sslKey ssl/server.key --sslCert ssl/server.crt",
+  "start": "ng serve --ssl true -o --ssl-key ssl/server.key --ssl-cert ssl/server.crt",
 ```
 
 
